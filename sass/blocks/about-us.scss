@@ -1,0 +1,25 @@
+.about-us {
+
+  .name-block {
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid $black;
+    font-family: Lobster, sans-serif;
+    font-size: 40px;
+  }
+
+  .text-block {
+    margin-bottom: 300px;
+
+    p {
+      margin: 10px 0;
+      font-family: Lobster, sans-serif;
+      font-size: 20px;
+
+      &:first-child {
+        margin-top: 100px;
+      }
+    }
+  }
+}

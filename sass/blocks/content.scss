@@ -1,5 +1,5 @@
 .content-block {
-    height: 700px;
+    height: 1400px;
     font-size: 40px;
     font-family: 'Lobster', cursive;
 
@@ -10,6 +10,15 @@
 
         .content-menu__item {
             list-style-type: none;
+
+            .content-menu__item--text {
+                font-size: 20px;
+                margin: 10px 0;
+
+                &:first-child {
+                    margin-top: 30px;
+                }
+            }
 
             &:first-child {
                 display: flex;
